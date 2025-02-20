@@ -1,0 +1,188 @@
+
+
+.top-destination {
+  
+  margin: 0 auto;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+
+.top-destination a,
+ .top-destination button {
+  color: #4fc08d;
+}
+@media screen and (max-width: 600px) {
+ 
+}
+
+.top-destination .item {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.top-destination .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+}
+.top-destination .item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 28px 25px;
+  color: #fff;
+  background: #020024;
+  background: linear-gradient(0deg, #020024 0%, #000032a1 3%, #17d9ff00 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-destination .item .overlay span {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 60px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+.top-destination .item .overlay > div h2 {
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+    text-align: center;
+    background: #f2bd07;
+    color: #fff;
+    border-radius: 20px;
+    padding: 6px 31px;
+}
+
+.owl-nav {
+    position: relative;
+    text-align: center;
+    /* bottom: 0; */
+    margin: 20px;
+    /* right: 0; */
+    /* align-items: center; */
+}
+@media screen and (max-width: 600px) {
+  .owl-nav {
+    top: -60px !important;
+  }
+}
+.owl-nav button {
+  background: #fc7803 !important;
+  width: 45px;
+  height: 45px;
+  font-size: 25px !important;
+  box-shadow: 0px 0px 17px #00000005;
+  border-radius: 50%;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    border: none;
+    padding: 0 15px 9px !important;
+    color: #fff;
+    /* margin-top: -20px; */
+    font-size: 39px !important;
+}
+.owl-nav button:nth-of-type(1) {
+  margin-right: 13px;
+}
+
+/* ==================================================
+product Section 
+================================================== */
+#productdetails{ position: relative; margin:60px 0 60px;     }
+.detailsbg{background: #fff;
+    padding: 10px 30px 40px;
+   }
+#productdetails h2 {
+	font-size: 25px;
+	font-weight: 600;
+	color: #285bbb;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+    margin-bottom:0px;
+
+}
+#productdetails .rating{ color: #FFD200;
+    font-size: 12px;
+    padding:6px 0 10px;
+    margin: 0;    
+    position: relative;
+   }
+#productdetails .rating ul {
+   margin: 0; padding: 0;
+    list-style: none;
+}
+
+#productdetails .rating li { display: inline-block; list-style: none;}
+#productdetails .rating li a { color: #FFD200}
+#productdetails .price{position: absolute; right: 0; background:#0dc8e7; color:#fff; padding: 20px; margin: 10px;top: 0; font-size:30px;   }
+#productdetails .price span{ font-size:15px; }
+#productdetails .like {
+    color: #f60a0a;
+    background-color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left:5%;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 10;
+}
+#productdetails h2 span{display: block; font-size:13px; color:#333; font-weight: ; }
+#productdetails .carousel-indicators li {
+    width: 200px;
+    height: 100%;
+    opacity: 0.8;
+  }
+#productdetails .carousel-indicators button.thumbnail{
+  width: 100px;
+    margin-top:10px; 
+}
+#productdetails .carousel-indicators button.thumbnail:not(.active){
+  opacity: 0.8;
+}
+
+#productdetails .carousel-indicators {
+    position: static;
+    margin-left: 0;
+    margin-right: 0;
+}
+#productdetails .carousel .carousel-inner{
+   
+    max-height: 70vh;
+}
+@media screen and (min-width: 992px) {
+#productdetails .carousel {
+    max-width:90%; 
+    margin: 0 auto;
+   
+}
+    
+}
+@media (max-width: 576px) {
+#productdetails .carousel-indicators {
+   
+    display: block;
+}
+}
