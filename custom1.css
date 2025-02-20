@@ -840,7 +840,7 @@ Testimonial Section
 Internal pages banner
 ================================================== */
 .innerbanner {
-	background: url(../images/innerpage.jpg) center top /cover;
+	background: url(innerpage.jpg) center top /cover;
 	min-height:431px;
 	padding-top: 132px;
 	color: #333;
